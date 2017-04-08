@@ -119,7 +119,6 @@ int main(int argc, char *argv[])
 	                      SDL_TEXTUREACCESS_STREAMING, pixel_w, pixel_h);
 
 	fp = fopen("test_yuv420p_320x180.yuv", "rb+");
-
 	if (fp == NULL) {
 		printf("cannot open this file\n");
 		return -1;
@@ -161,3 +160,4 @@ int main(int argc, char *argv[])
 	SDL_Quit();
 	return 0;
 }
+

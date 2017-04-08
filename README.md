@@ -43,3 +43,7 @@
  SDL_UpdateTexture(): Set Texture's data.
  SDL_RenderCopy(): Copy Texture to Render.
  SDL_RenderPresent(): Show.
+
+环境搭建：
+	1. 安装Ubuntu 14.04或以上，我用Ubuntu12.04尝试，默认更新源中不包含sdl2
+	2. 执行命令 sudo apt-get install libsdl2-dev 安装sdl2依赖库
